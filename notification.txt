@@ -1,0 +1,15 @@
+{
+ "to": "fQT3hBiFZds:APA91bGcdTyxTyZFyvjx3C-Hpg6l809IiV5qmIRkS4Qt80B2WqkHfKoPkIsko9MYqtSxxTEPaSHl7MLwhLaZTxPjzKVWWz3v3p1QvtLRIyfbviXHdSBVqDY4v5ndESPRhbn2lsS14Mes"
+ "notification":{
+     "title": "Hello"
+     "body": "World"
+     "icon": "/firebase-logo.png"
+ }
+}
+
+
+curl.exe ^
+    --header "Authorization: key=AAAAyplMjAM:APA91bF5j5O9fWvuH_SNA46J1hVnuRhroe-Ens5X5d87ozet2itiaQ60SNQtj_uU5gwFVPxoEhvyw-Qw5pV63Vj9DE4Mob6_FuJRkPGu7bsdNRp86YK_UKuwqh-O_ev7oySMbSCvLEwz" ^
+    --header "Content-type: application/json" ^
+    -d '{"to": "fQT3hBiFZds:APA91bGcdTyxTyZFyvjx3C-Hpg6l809IiV5qmIRkS4Qt80B2WqkHfKoPkIsko9MYqtSxxTEPaSHl7MLwhLaZTxPjzKVWWz3v3p1QvtLRIyfbviXHdSBVqDY4v5ndESPRhbn2lsS14Mes": {"title": "Hello","body": "Workd"}}' ^
+    https://fcm.googleapis.com/fcm/send
